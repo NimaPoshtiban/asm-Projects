@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 
-extern "C" void Reverser(int* y, const int* x, int n);
+extern "C" int Reverser(int* y, const int* x, int n);
 
 int main()
 {
@@ -25,4 +25,3 @@ int main()
     }
     return 0;
 }
-
